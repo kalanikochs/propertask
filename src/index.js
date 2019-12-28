@@ -12,7 +12,7 @@ mongoose.connect('mongodb://properuser:zrMiVOjGKPm3mGU6@propertaskdb-shard-00-00
 .catch(err => console.error(err))
 
 //Settings
-app.set('port', process.env.PORT || 8080);
+app.set('port', process.env.PORT || 5202);
 
 //Middlewares
 app.use(morgan('dev'));
