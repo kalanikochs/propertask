@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 const app = express();
 
-mongoose.connect('mongodb://properuser:zrMiVOjGKPm3mGU6@propertaskdb-shard-00-00-zkejv.mongodb.net:27017,propertaskdb-shard-00-01-zkejv.mongodb.net:27017,propertaskdb-shard-00-02-zkejv.mongodb.net:27017/test?ssl=true&replicaSet=propertaskdb-shard-0&authSource=admin&retryWrites=true&w=majority', {
+mongoose.connect('mongodb://<username>:<password>@propertaskdb-shard-00-00-zkejv.mongodb.net:27017,propertaskdb-shard-00-01-zkejv.mongodb.net:27017,propertaskdb-shard-00-02-zkejv.mongodb.net:27017/test?ssl=true&replicaSet=propertaskdb-shard-0&authSource=admin&retryWrites=true&w=majority', {
     useNewUrlParser: true
     //useUnifiedTopology: true    
 })
