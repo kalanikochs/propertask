@@ -3,7 +3,8 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 const app = express();
 
-mongoose.connect('mongodb://localhost/propertask-db', {
+mongoose.connect('mongodb+srv://properuser:zrMiVOjGKPm3mGU6@propertaskdb-zkejv.mongodb.net/test?retryWrites=true&w=majority'
+    /*'mongodb://localhost/propertask-db'*/, {
     useNewUrlParser: true, 
     useUnifiedTopology: true    
 })
