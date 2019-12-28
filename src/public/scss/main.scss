@@ -1,0 +1,85 @@
+body {
+    nav {
+        &.navbar {
+            background-color: #000 !important;
+        }
+        a {
+            &.navbar-brand {
+                width: 42px;
+                display: inline-block;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .nav-title {
+            color: #fff;
+            &:hover {
+                color: #cabaf8;
+            }
+        }
+    }
+    .msg {
+        color: red;
+    }
+    .icon {
+        float: left;
+        margin-right: 2%;
+    }
+    .content {
+        display: inline-block;
+    }
+    .actions {
+        float: right;
+    }
+    .modal-header {
+        background: #007bff;
+        color: #fff;
+    }
+    .card {
+        margin: 20px 0;
+
+        .title {
+            display: inline-block;
+        }
+        .dates {
+            float: right;
+        }
+        span {
+            &.important {
+                background: #ff3b00;
+                padding: 4px;
+                color: #fff;
+                border-radius: 4px;
+            }
+            &.high {
+                background: #ff8d00;
+                padding: 4px;
+                color: #fff;
+                border-radius: 4px;                
+            }
+            &.mid {
+                background: #0089ff;
+                padding: 4px;
+                color: #fff;
+                border-radius: 4px;                
+            }
+            &.low {
+                background: #a8bdd0;
+                padding: 4px;
+                color: #fff;
+                border-radius: 4px;                     
+            }
+        }
+        .card-body {
+            .card-text {
+                p {
+                    border: 1px solid #ccc9c9;
+                    border-radius: 3px;
+                    padding: 1%;
+                    background: #f3f3f3;
+                }
+            }
+        }
+    }
+}
